@@ -1,3 +1,27 @@
-*, *:before, *:after {
-  box-sizing: border-box;
+html, body {
+  background-image: linear-gradient(-90deg, #202211, #22111A);
+  font-family: 'Varela Round', sans-serif;
+}
+
+#play {
+  height: 60px;
+  width: 400px;
+  background: transparent;
+  color: #ececec;
+  border: 4px solid #ececec;
+  font-size: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -30px;
+  cursor: pointer;
+
+  &:focus {
+    outline:0;
+  }
+
+  &:disabled {
+    opacity: 0.1;
+  }
 }
