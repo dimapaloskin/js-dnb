@@ -1,6 +1,6 @@
 var config = require('./../config');
 
-var volume = 1;
+var volume = 0.4;
 var env = {
   attack: 0.02,
   release: 0.02,

@@ -167,5 +167,5 @@ var button = document.getElementById('play');
 button.addEventListener('click', function () {
   play();
   button.setAttribute('disabled', 'disabled');
-  button.innerHTML = '...';
+  button.innerHTML = '|'
 });

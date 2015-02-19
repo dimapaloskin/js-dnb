@@ -2,7 +2,7 @@ var config = require('./../config');
 
 var hihat = new Wad({
   source: '/samples/hat2.wav',
-  volume: 1.25,
+  volume: .75,
   globalReverb: true
 });
 

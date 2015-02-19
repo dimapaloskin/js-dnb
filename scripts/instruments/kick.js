@@ -6,14 +6,14 @@ var filter = [
 
 var kick = new Wad({
   source: '/samples/kick.wav',
-  volume: 10,
+  volume: 2,
   filter: filter,
   globalReverb: true
 });
 
 var kick1 = new Wad({
   source: '/samples/kick.wav',
-  volume: 3,
+  volume: 1,
   globalReverb: true
 });
 

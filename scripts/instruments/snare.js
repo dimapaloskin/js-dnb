@@ -6,7 +6,7 @@ var filter = [
 
 var snare = new Wad({
   source: '/samples/snare.wav',
-  volume: 10,
+  volume: 5,
   filter: filter,
   globalReverb: true
 });
