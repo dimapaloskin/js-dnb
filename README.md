@@ -20,4 +20,4 @@ __When you are done, create a production ready version of the JS bundle:__
 
 
 
-- [Listen](http://tiktok.bitballoon.com/)
+[Listen](http://tiktok.bitballoon.com/)
